@@ -3,7 +3,7 @@
     <icon-fume class="w-36 h-36" />
     <div class="bg-white rounded-lg shadow flex flex-col divide-y">
       <div class="flex items-center p-2 space-x-2">
-        <div class="w-6 h-6 text-xl">✅</div>
+        <div class="i-bi-check-lg w-6 h-6 text-green-500" />
         <div>Server-Side Rendering ({{ version }}) </div>
       </div>
       <div class="flex items-center p-2 space-x-2">
