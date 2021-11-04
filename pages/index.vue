@@ -3,31 +3,25 @@
     <icon-fume class="w-36 h-36" />
     <div class="bg-white rounded-lg shadow flex flex-col divide-y">
 
-      <div class="flex items-center p-2 space-x-2">
+      <div class="flex items-center py-2 px-4 space-x-4">
         <div class="i-bi-check-lg w-6 h-6 text-green-500" />
         <div>Server-Side Rendering ({{ version }}) </div>
       </div>
 
-      <div class="flex items-center p-2 space-x-2">
+      <div class="flex items-center py-2 px-4 space-x-4">
         <img src="/nuxt.svg" class="w-6 h-6" alt="Nuxt Image">
         <div>Statically cached image</div>
       </div>
 
-      <div class="flex items-center p-2 space-x-2">
-        <div class="i-bx-bxl-aws w-6 h-6 text-yellow-700" />
+      <div class="flex items-center py-2 px-4 space-x-4">
+        <div class="i-logos-aws w-6 h-6 text-yellow-700" />
         <div>Build test number ({{ number }}) </div>
       </div>
 
-      <!--
-      <div class="flex items-center p-2 space-x-2">
-        <div class="i-fa-solid:cog w-6 h-6 text-gray-400" />
-        <div>process . env . API_URL: {{ API_URL }} </div>
+      <div class="flex items-center py-2 px-4 space-x-4">
+        <div class="i-mdi-cog w-6 h-6 text-gray-400" />
+        <div>$config.apiURL: {{ $config.apiURL }} </div>
       </div>
-      -->
-
-      <pre>
-        {{ json }}
-      </pre>
 
     </div>
   </div>
