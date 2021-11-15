@@ -595,6 +595,13 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@tailvue/nuxt@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@tailvue/nuxt/-/nuxt-0.1.20.tgz#1911915c59034164adc70de89debc4f2978ad306"
+  integrity sha512-1APzRCjj3WBB/sowd+stNFxOQOMRdakIGt/EcnhOwbwBd4hm8uoF8HXYO6nYhbV9P/FHXJzdUAkqeMwmQv+XZw==
+  dependencies:
+    tailvue "^0.1.20"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -5171,10 +5178,10 @@ table@^6.7.3:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tailvue@^0.1.1:
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/tailvue/-/tailvue-0.1.16.tgz#2b767569fd855f73f38e13c46aaf78f281c6151c"
-  integrity sha512-d/EtgZyInFMWWBbixuFPfefqdcEI8aj6ddDU3TLnJRyzrflhroWK+/9e4nn7edMKP5Bv7V/93IiioxI7TajQoQ==
+tailvue@^0.1.1, tailvue@^0.1.20:
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/tailvue/-/tailvue-0.1.21.tgz#7fe92021c8a36d702fa3ad0c923a1e01198fa8f2"
+  integrity sha512-olHDbRc0G0eJgKxYTOX67GNsw7yeBKSjDtcJXt/b9B6PIgFAMHPlvuNSqmWPt9Ul87yqi3XJozxUAegrcRQ03g==
   dependencies:
     vue "^3.2.21"
 

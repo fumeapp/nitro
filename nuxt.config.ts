@@ -6,10 +6,13 @@ export default defineNuxtConfig({
     buildModules: [
         '@vueuse/core/nuxt',
         '@unocss/nuxt',
+        '@tailvue/nuxt',
     ],
+    /*
     plugins: [
         '@/plugins/tailvue.client',
     ],
+    */
     publicRuntimeConfig: {
         apiURL: process.env.API_URL || 'http://localhost:8000',
     },
