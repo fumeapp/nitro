@@ -263,9 +263,9 @@
     mime "^2.5.2"
 
 "@iconify/json@^1.1.421":
-  version "1.1.427"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.427.tgz#b6cf887ad90bd70540ab60655b1a72c16c661467"
-  integrity sha512-SzZlHn/Qm7PKGFp/joMDV6r/Ykh6O7TSjW9HMmG1r80xj1vfv3H3rimwcfLR+Jfj5kMFnlv0nK3h4QjwqG8Vsg==
+  version "1.1.428"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.428.tgz#6bc6a1daf717c96f5604330f0fbf958fc435e513"
+  integrity sha512-86b4F345feBxH4vP4r0DSM/c5Qw/uVUU7oecWc3xz4dIOV4ALmS6l4y8uHIEhmuMDX8iDMlegH4cVUtK42Bnwg==
 
 "@iconify/types@^1.0.10":
   version "1.0.10"
@@ -596,9 +596,9 @@
     picomatch "^2.2.2"
 
 "@tailvue/nuxt@^0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@tailvue/nuxt/-/nuxt-0.1.20.tgz#1911915c59034164adc70de89debc4f2978ad306"
-  integrity sha512-1APzRCjj3WBB/sowd+stNFxOQOMRdakIGt/EcnhOwbwBd4hm8uoF8HXYO6nYhbV9P/FHXJzdUAkqeMwmQv+XZw==
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/@tailvue/nuxt/-/nuxt-0.1.21.tgz#8c64ba4d125f01983b4b6d70f87d033975fd5222"
+  integrity sha512-LS1QZmhlr710ldg3wIM3e1eGDzUvp1GTPa3JjXue1HY9tx84JyqVr9Wo9TJXU3PXw8AClaTq8uS1YensfSc/Cg==
   dependencies:
     tailvue "^0.1.20"
 
@@ -616,9 +616,9 @@
     "@types/estree" "*"
 
 "@types/eslint@*":
-  version "7.28.2"
-  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.28.2.tgz#0ff2947cdd305897c52d5372294e8c76f351db68"
-  integrity sha512-KubbADPkfoU75KgKeKLsFHXnU4ipH7wYg0TRT33NK3N3yiu7jlFAAoygIWBV+KbuHx/G+AvuGX6DllnK35gfJA==
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.29.0.tgz#e56ddc8e542815272720bb0b4ccc2aff9c3e1c78"
+  integrity sha512-VNcvioYDH8/FxaeTKkM4/TiTwt6pBV9E3OfGmvaw8tPl0rrHCJ4Ll15HRT+pMiFAf/MLQvAzC+6RzUMEL9Ceng==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
