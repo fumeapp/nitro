@@ -23,6 +23,14 @@
         <div>$config.apiURL: {{ $config.apiURL }} </div>
       </div>
 
+      <nuxt-link to="/tailvue" class="flex items-center py-2 px-4 space-x-4">
+        <div class="flex">
+          <div class="i-logos-vue w-6 h-6" />
+          <div class="i-logos-tailwindcss-icon w-6 h-6 -ml-5" />
+        </div>
+        <div>tailvue playground</div>
+      </nuxt-link>
+
     </div>
   </div>
 </template>

@@ -6,6 +6,7 @@ module.exports = {
         "./pages/**/*.vue",
         "./plugins/**/*.ts",
         "./nuxt.config.ts",
+        "node_modules/tailvue/dist/tailvue.umd.js",
     ],
     darkMode: 'class', // or 'media' or 'class'
     theme: {

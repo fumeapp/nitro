@@ -16,6 +16,7 @@
     "@vueuse/core": "^6.7.4",
     "nuxt3": "^3.0.0-27265876.3cd4494",
     "postcss": "^8.3.11",
+    "tailvue": "^0.1.1",
     "tailwindcss": "^3.0.0-alpha.1"
   }
 }

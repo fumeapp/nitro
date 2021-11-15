@@ -5171,6 +5171,13 @@ table@^6.7.3:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
+tailvue@^0.1.1:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/tailvue/-/tailvue-0.1.3.tgz#9e5d692a1c5fee317795afbdfb69a335b5cb6504"
+  integrity sha512-KOBXBELnNQfNkeAvQa5acjKhWlmEuVPQZFQORfyUtimDM1w+EdRfeCchSjtLyQzOxLc4vjnnX9cdexgTfr9dPQ==
+  dependencies:
+    vue "^3.2.21"
+
 tailwindcss@^3.0.0-alpha.1:
   version "3.0.0-alpha.2"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.0.0-alpha.2.tgz#9f0f797aeabc0294169d732f3379538222e0a44a"

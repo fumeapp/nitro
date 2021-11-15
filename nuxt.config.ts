@@ -7,6 +7,9 @@ export default defineNuxtConfig({
         '@vueuse/core/nuxt',
         '@unocss/nuxt',
     ],
+    plugins: [
+        '@/plugins/tailvue',
+    ],
     publicRuntimeConfig: {
         apiURL: process.env.API_URL || 'http://localhost:8000',
     },
