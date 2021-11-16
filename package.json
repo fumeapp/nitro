@@ -6,15 +6,10 @@
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "@iconify/json": "^1.1.421",
-    "@tailvue/nuxt": "^0.1.20",
-    "@unocss/preset-icons": "^0.9.3",
-    "unocss": "^0.9.3"
+    "@tailvue/nuxt": "^0.1.20"
   },
   "devDependencies": {
     "@iconify/vue": "^3.0.0",
-    "@unocss/nuxt": "^0.9.3",
-    "@vueuse/core": "^6.7.4",
     "nuxt3": "^3.0.0-27265876.3cd4494",
     "postcss": "^8.3.11",
     "tailvue": "^0.1.1",

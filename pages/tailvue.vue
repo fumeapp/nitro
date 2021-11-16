@@ -7,9 +7,11 @@
 </template>
 
 <script lang="ts" setup>
-import { PushButton } from 'tailvue'
+import { PushButton, useModal, useToast } from 'tailvue'
 import { useNuxtApp } from '#app'
-const { $toast, $modal } = useNuxtApp()
+// const { $toast, $modal } = useNuxtApp()
+const $toast = useToast()
+const $modal = useModal()
 function toastSuccess () {
   $toast.success('this is a test')
 }

@@ -4,7 +4,7 @@
     <div class="bg-white rounded-lg shadow flex flex-col divide-y">
 
       <div class="flex items-center py-2 px-4 space-x-4">
-        <div class="i-bi-server w-6 h-6 text-blue-500" />
+        <icon-client icon="bi-server" class="w-6 h-6 text-blue-500" />
         <div>Server-Side Rendering  (node {{ version }}) </div>
       </div>
 
@@ -14,19 +14,19 @@
       </div>
 
       <div class="flex items-center py-2 px-4 space-x-4">
-        <div class="i-logos-aws w-6 h-6 text-yellow-700" />
+        <icon-client icon="logos-aws" class="w-6 h-6 text-yellow-700" />
         <div>Build test number ({{ number }}) </div>
       </div>
 
       <div class="flex items-center py-2 px-4 space-x-4">
-        <div class="i-mdi-cog w-6 h-6 text-gray-400" />
+        <icon-client icon="mdi-cog" class="w-6 h-6 text-gray-400" />
         <div>$config.apiURL: {{ $config.apiURL }} </div>
       </div>
 
       <nuxt-link to="/tailvue" class="flex items-center py-2 px-4 space-x-4">
         <div class="flex">
-          <div class="i-logos-vue w-6 h-6" />
-          <div class="i-logos-tailwindcss-icon w-6 h-6 -ml-5" />
+          <icon-client icon="logos-vue" class="w-6 h-6" />
+          <icon-client icon="logos-tailwindcss-icon" class="w-6 h-6 -ml-5" />
         </div>
         <div>tailvue playground</div>
       </nuxt-link>
