@@ -579,9 +579,9 @@
     picomatch "^2.2.2"
 
 "@tailvue/nuxt@^0.1.33":
-  version "0.1.39"
-  resolved "https://registry.yarnpkg.com/@tailvue/nuxt/-/nuxt-0.1.39.tgz#52fb96332ccb9a19b042a72b5617251af84b6afd"
-  integrity sha512-TOcxydTsn8CJ3sOeVze1SVPwZF/68Wl5pf0wJGgc0mULYYO0ua/v5MFFpp1F0DztwDxzsNtwHP0r2VWGX0ZecQ==
+  version "0.1.40"
+  resolved "https://registry.yarnpkg.com/@tailvue/nuxt/-/nuxt-0.1.40.tgz#fe28b2161364243c885a547a249580bef7329e9a"
+  integrity sha512-Tgh2E5A4Y1u7/oDUpTiewp5AIwxeU9CxehNN9YPc5DptCH54o2Dv/UiIIo64G4IqmtZGoSUjKyMjsoW+dv6HMA==
   dependencies:
     "@nuxt/kit-edge" "^3.0.0-27283410.c53b6a5"
     pathe "^0.2.0"
@@ -4956,9 +4956,9 @@ table@^6.7.3:
     strip-ansi "^6.0.1"
 
 tailvue@^0.1.30:
-  version "0.1.39"
-  resolved "https://registry.yarnpkg.com/tailvue/-/tailvue-0.1.39.tgz#9830cc8759948a973f908e81ae325c86791bc072"
-  integrity sha512-PeKiOtZlZUe70lvjk0k0pQI/Fib2hQTJbz59+dUFsl/lB+OJISVnXrYH6bOJiGgJ2adTvAxNHoqR7Ny9sziZ+w==
+  version "0.1.40"
+  resolved "https://registry.yarnpkg.com/tailvue/-/tailvue-0.1.40.tgz#fdbfe693335f82eb6911cac0f193af6eb3544f0c"
+  integrity sha512-EC8flJU/L63Jqr8fltVXNJ+6KTWxZIffltOZmXednXRM/J7/Tk/eFT/3RgPavRbyFu//71WpI13SrWBq4+0umQ==
   dependencies:
     vue "^3.2.21"
 
