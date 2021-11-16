@@ -7,11 +7,10 @@
 </template>
 
 <script lang="ts" setup>
-import { PushButton, useModal, useToast } from 'tailvue'
+import { PushButton } from 'tailvue'
 import { useNuxtApp } from '#app'
-// const { $toast, $modal } = useNuxtApp()
-const $toast = useToast()
-const $modal = useModal()
+const { $toast, $modal } = useNuxtApp()
+
 function toastSuccess () {
   $toast.success('this is a test')
 }
@@ -32,11 +31,9 @@ function danger () {
     },
     secondary: {
       label: 'Secondary Action',
-      theme: 'white',
-      action: () => $toast.info('clicked secondary action'),
+      theme: 'indigo-light',
+      action: () => $toast.info('secondary action pressed')
     }
-
   })
-
 }
 </script>

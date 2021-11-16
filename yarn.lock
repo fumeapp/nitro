@@ -332,7 +332,7 @@
     error-stack-parser "^2.0.0"
     string-width "^4.2.3"
 
-"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27283410.c53b6a5":
+"@nuxt/kit-edge@^3.0.0-27283410.c53b6a5", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27283410.c53b6a5":
   version "3.0.0-27283410.c53b6a5"
   resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27283410.c53b6a5.tgz#56ab62b87d16b105fff421d052edf252a5f92387"
   integrity sha512-r/MsGZLoA6lcBNWu6NLI9HOW6ZPew+M/FXbjuOTg0A8pqfYqIkrH23M6oy9Bm0vC/PEPzqpMHUVaF4rEpbZ9RA==
@@ -578,13 +578,14 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@tailvue/nuxt@^0.1.20":
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/@tailvue/nuxt/-/nuxt-0.1.24.tgz#8cd9f536f7f5eb740f127edd5290e686336c8c47"
-  integrity sha512-oyiHWXSpBQAvRbmsoPMeAhfzUQRLpqBZYLlSKP/AR9X8dHdrQw/dG+E+Eno2B/E9JpLDJA4uuABYl3LGlVi1Ug==
+"@tailvue/nuxt@^0.1.29":
+  version "0.1.32"
+  resolved "https://registry.yarnpkg.com/@tailvue/nuxt/-/nuxt-0.1.32.tgz#804d257d3e33da339ec3d80f42884c97fae419cb"
+  integrity sha512-RKWuTGhwwSthRZ0q455UrAmYq83JTn0X4dmh39H2S7D8aF38Oysb69tKzpJskXCvTmOd0zElf89W2xPUBR9RPw==
   dependencies:
-    nuxt3 latest
-    tailvue latest
+    "@nuxt/kit-edge" "^3.0.0-27283410.c53b6a5"
+    pathe "^0.2.0"
+    tailvue "^0.1.30"
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -3701,7 +3702,7 @@ number-is-nan@^1.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt3@^3.0.0-27265876.3cd4494, nuxt3@latest:
+nuxt3@latest:
   version "3.0.0-27283410.c53b6a5"
   resolved "https://registry.yarnpkg.com/nuxt3/-/nuxt3-3.0.0-27283410.c53b6a5.tgz#d14b249ba78786331153337c74cd2b93e84c3b0e"
   integrity sha512-h60mpSZslB5bSdCmKw0DBku72HfKBxOi8yz3RYwOQp9N8vbIi1VLkgniwqSJB7Npi2cfZv5+/mlhZinHRVKBYw==
@@ -4954,10 +4955,10 @@ table@^6.7.3:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tailvue@^0.1.1, tailvue@latest:
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/tailvue/-/tailvue-0.1.24.tgz#c7e9ac5bc4efed0bf1e1100e79af80bb81969588"
-  integrity sha512-lImqvLkWze4o6ZaJetTxeeRG7Kfh9AiceJ1UZqpS4L8oV6TkFLI+pth/JuLQLTa+h4x8Jg/vcySAVM4SzWfFEA==
+tailvue@^0.1.30:
+  version "0.1.32"
+  resolved "https://registry.yarnpkg.com/tailvue/-/tailvue-0.1.32.tgz#09574a39b45eee42b7fdd6bfa0acf8a3ff610063"
+  integrity sha512-BHIkc0X21xSQBs897GzIBX+AI1wYp7W8hAqaxBbFVCxaI0iOpw/jhIxUjScbla9Hhq2/xzw4VXjCTwq6ArXw7g==
   dependencies:
     vue "^3.2.21"
 
