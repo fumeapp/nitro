@@ -1,4 +1,10 @@
-#rn dev Nuxt 3 Minimal Starter
+# Nuxt3 example template deployed by Fume
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/acidjazz/laranuxt/master/client/static/laranuxt.png" />
+</p>
+
+# Nuxt 3 Minimal Starter
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
