@@ -20,7 +20,7 @@ function toastSuccess () {
 }
 
 function toastDanger () {
-  $toast.danger('success')
+  $toast.danger('danger')
 }
 
 const toastPrimary = () => {

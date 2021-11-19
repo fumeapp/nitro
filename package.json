@@ -8,9 +8,8 @@
   "devDependencies": {
     "@iconify/vue": "^3.0.0",
     "@tailvue/nuxt": "^0.1.33",
-    "nuxt3": "latest",
-    "postcss": "^8.3.11",
-    "tailwindcss": "^3.0.0-alpha.1"
+    "nuxt-windicss": "^2.0.12",
+    "nuxt3": "latest"
   },
   "dependencies": {}
 }
