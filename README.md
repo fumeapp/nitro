@@ -1,10 +1,8 @@
-# Nuxt3 example template deployed by Fume
+## Nuxt3 example template deployed by Fume
 
 <p align="center">
   <img src="https://github.com/fumeapp/nitro/blob/production/nuxt3.png?raw=true" />
 </p>
-
-# Nuxt 3 Minimal Starter
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
