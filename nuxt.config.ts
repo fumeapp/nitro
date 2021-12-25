@@ -12,6 +12,7 @@ export default defineNuxtConfig({
         '@/styles/main.css',
     ],
     build: {
+        publicPath: '/',
         postcss: {
             postcssOptions: {
                 plugins: {
