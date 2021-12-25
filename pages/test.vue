@@ -40,3 +40,10 @@ import { useAsyncData } from '#app'
 let version = (await useAsyncData('version', () => process.version)).data
 const number = ref(<number>16)
 </script>
+
+
+<script lang="ts">
+export default {
+  layout: 'custom',
+}
+</script>

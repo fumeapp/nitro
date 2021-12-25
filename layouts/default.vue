@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="absolute top-0 left-0 bg-red-200 p-2">
-      layouts/custom.vue
+    <div class="absolute top-0 left-0 bg-green-200 p-2">
+      layouts/default.vue
     </div>
     <div>
       <slot />
