@@ -4,6 +4,11 @@
     <div class="bg-white rounded-lg shadow flex flex-col divide-y">
 
       <div class="flex items-center py-2 px-4 space-x-4">
+        <icon-client icon="emojione-monotone:alembic" class="w-6 h-6 text-blue-500" />
+        <div>/pages/test.vue </div>
+      </div>
+
+      <div class="flex items-center py-2 px-4 space-x-4">
         <icon-client icon="bi-server" class="w-6 h-6 text-blue-500" />
         <div>Server-Side Rendering  (node {{ version }}) </div>
       </div>
