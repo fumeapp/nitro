@@ -21,7 +21,7 @@
 
       <div class="flex items-center py-2 px-4 space-x-4">
         <icon-client icon="mdi-cog" class="w-6 h-6 text-gray-400" />
-        <div>$config.apiURL: {{ $config.apiURL }} </div>
+        <div>config.apiURL: {{ config.apiURL }} </div>
       </div>
 
       <nuxt-link to="/playground" class="flex items-center py-2 px-4 space-x-4">
@@ -37,7 +37,10 @@
 </template>
 
 <script lang="ts" setup>
-import { useAsyncData } from '#app'
+import { useAsyncData, useRuntimeConfig } from '#app'
+import { ref } from '@vue/reactivity'
+import IconClient from '~/components/IconClient.vue'
 let version = (await useAsyncData('version', () => process.version)).data
 const number = ref(<number>16)
+const config = useRuntimeConfig()
 </script>
