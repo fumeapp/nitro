@@ -43,7 +43,5 @@ const number = ref(<number>16)
 
 
 <script lang="ts">
-export default {
-  layout: 'custom',
-}
+export default { layout: 'custom', }
 </script>
